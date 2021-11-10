@@ -1,0 +1,30 @@
+.portfolio {
+  padding: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: var(--section-background);
+}
+.portfolio .portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 80px;
+}
+.portfolio .portfolio-content .card {
+  background-color: white;
+}
+.portfolio .card img {
+  max-width: 100%;
+}
+.portfolio .card img:hover {
+}
+.portfolio .card .info {
+  padding: 20px;
+}
+.portfolio .card .info h3 {
+  margin: 0;
+}
+.portfolio .card .info p {
+  color: #777;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
